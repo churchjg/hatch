@@ -121,7 +121,7 @@ class App extends Component {
             <div>
               {this.state.filteredArray.map((student) => {
                 return (
-                  <Student key={student.key} student={student} addTag={this.addTag}/>
+                  <Student key={student.key} pic={student.pic} student={student} addTag={this.addTag}/>
                 )
               })}
             </div>

@@ -54,8 +54,10 @@ class Student extends Component {
                         </button>
                     }
                 </div>
+               
+                        
             
-                <img className="robotAvatar" src="https://robohash.org/63.143.42.242.png" alt="Robot Avatar"/>
+                <img className="robotAvatar" src={this.props.pic} alt="student avatar"/>
             
                 <div className="studentInfo"> 
                     <p className="studentName">{this.props.student.name}</p>
