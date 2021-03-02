@@ -5,7 +5,10 @@ This app allows the user to view a Student Roster containing detailed informatio
 
 ## How It Was Done
 
-This was built using an API from hatchways fetched with axios for data. The frontend uses React with 1 component (Student.js). The search features were built in app.js using the methods: target.value, match.forEach, and some filtering of arrays. The array is then mapped and rendered using a React key.
+* This was built using an API from hatchways fetched with axios for data. 
+* The frontend uses React with 1 component (Student.js). 
+* The search features were built in app.js using the methods: target.value, match.forEach, and some filtering of arrays. 
+* The array is then mapped and rendered using a React key.
 
 ### Starting the app
 1) Clone this repository using ```git clone https://github.com/churchjg/hatch.git```
